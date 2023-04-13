@@ -44,6 +44,9 @@ a{
 .ps-1{
     padding-left: 10px;
 }
+.pe-3{
+    padding-right: 30px;
+}
 .p-2{
     padding: 20px;
 }
@@ -59,8 +62,15 @@ a{
     width: 60px;
     display: block;
 }
+.img-logo-bg{
+    width: 400px;
+    display: block;
+}
 .img-product{
     width: 30px;
+    display: block;
+}
+.block{
     display: block;
 }
 
@@ -74,4 +84,25 @@ a{
 }
 .white{
     color: white;
+}
+.bg-image{
+    background-image: url('../assets/img/footer-bg.jpg');
+}
+
+
+/* Position relative / position absolute */
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+    top: -60px;
+    right: 0;
+    
+}
+.z-index1000{
+    z-index: 1000
+}
+.z-index2000{
+    z-index: 2000
 }

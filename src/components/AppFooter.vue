@@ -1,19 +1,22 @@
 <template>
-    <section>
-        <div>
-            <div>
+    <section class="bg-image">
+        <div class="container position-relative">
+            <div class="ptb-4">
                 <div>
                     <ul class="d-flex">
-                        <li v-for="(items, index) in footerLink">
-                            <h3>{{ items.title }}</h3>
+                        <li class="pe-3" v-for="(items, index) in footerLink">
+                            <h3 class="white">{{ items.title }}</h3>
                             <ul>
                                 <li v-for="links in items.link">
-                                    {{ links }}
+                                  <a class="white" href="#">{{ links }}</a>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div class="position-absolute">
+                <img class="img-logo-bg" src="../assets/img/dc-logo-bg.png" alt="logo bg">
             </div>
         </div>
     </section>
