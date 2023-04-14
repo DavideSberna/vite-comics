@@ -4,7 +4,7 @@
             <div class="">
                 <div>
                     <ul class="d-flex m-0 p-0">
-                        <li class="pe-4" v-for="(items, index) in footerLink">
+                        <li class="pe-4" v-for="(items, index) in newFooter">
                             <h3 class="white">{{ items.title }}</h3>
                             <ul class="m-0 p-0">
                                 <li v-for="links in items.link">
@@ -24,28 +24,13 @@
 
 
 <script>
+import { footerLink } from "../assets/data/data.js"
 export default{
    name: 'AppFooter',
    data(){
        return{
-        footerLink: [
-            {
-                title: 'Dc comics',
-                link: ['Characters', 'Characters','Characters','Characters','Characters','Characters','Characters',]
-            },
-            {
-                title: 'Dc',
-                link: ['Characters', 'Characters','Characters','Characters','Characters','Characters',]
-            },
-            {
-                title: 'Sites',
-                link: ['Characters', 'Characters','Characters','Characters','Characters',]
-            },
-            {
-                title: 'Shop',
-                link: ['Characters', 'Characters',]
-            },
-        ]
+        newFooter: [...footerLink]
+      
            
        }
    }

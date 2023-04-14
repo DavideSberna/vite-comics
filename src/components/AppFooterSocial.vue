@@ -8,7 +8,7 @@
                    </div>
                    <div>
                     <ul class="d-flex align-items-center m-0 p-0">
-                        <li class="list-group-item" v-for="(item, index) in footerSocial">
+                        <li class="list-group-item" v-for="(item, index) in newFooter">
                             <a class="white" href="#">{{item.title}}</a>
                             <img class="d-block ps-2" :src="item.imgSocial" alt="">
                         </li>
@@ -22,28 +22,15 @@
 
 
 <script>
-import image1 from '../assets/img/footer-facebook.png';
+import {footerSocial} from '../assets/data/data.js';
+// import image1 from '../assets/img/footer-facebook.png';
+
 export default{
    name: 'AppFooterSocial',
    data(){
        return{
-        footerSocial:[
-            {
-                title: 'Follow Us',
-            },
-            {
-                imgSocial: image1,
-            },
-            {
-                imgSocial: image1,
-            },
-            {
-                imgSocial: image1,
-            },
-            {
-                imgSocial: image1,
-            },
-        ]
+        newFooter: footerSocial
+         
            
        }
    }

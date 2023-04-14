@@ -15,6 +15,26 @@ a{
     color: black;
 }
 
+.nav a{
+    position: relative;
+
+}
+.nav a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 30px;
+    transition: 0.2s;
+    background-color: black;
+
+}
+
+.nav a:hover:not(#not-hover):after{
+    width: 100px;
+}
+
 
 
 
