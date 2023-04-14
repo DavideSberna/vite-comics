@@ -1,12 +1,12 @@
 <template>
-    <section class="bg-image">
-        <div class="container position-relative">
-            <div class="ptb-4">
+    <section class="bg-image overflow-hidden">
+        <div class="container d-flex justify-content-between pt-4">
+            <div class="">
                 <div>
-                    <ul class="d-flex">
-                        <li class="pe-3" v-for="(items, index) in footerLink">
+                    <ul class="d-flex m-0 p-0">
+                        <li class="pe-4" v-for="(items, index) in footerLink">
                             <h3 class="white">{{ items.title }}</h3>
-                            <ul>
+                            <ul class="m-0 p-0">
                                 <li v-for="links in items.link">
                                   <a class="white" href="#">{{ links }}</a>
                                 </li>
@@ -15,8 +15,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="position-absolute">
-                <img class="img-logo-bg" src="../assets/img/dc-logo-bg.png" alt="logo bg">
+            <div class="">
+                <img class="img-logo-bg m--50" src="../assets/img/dc-logo-bg.png" alt="logo bg">
             </div>
         </div>
     </section>

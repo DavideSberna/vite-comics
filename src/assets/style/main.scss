@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+
+$fa-font-path: './webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import 'bootstrap/scss/bootstrap';
+
+
+
+/* General tag style */
+ 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+ 
+/* image settings */
+.img-logo{
+    width: 60px;
+    display: block;
+}
+.img-logo-bg{
+    width: 400px;
+    display: block;
+}
+.img-product{
+    width: 30px;
+    display: block;
+}
+
+/* color text / color bg settings */
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-blue{
+    background-color: rgb(64, 131, 255);
+}
+.white{
+    color: white;
+}
+.bg-image{
+    background-image: url('../img/footer-bg.jpg');
+}
+
+
+/* Position relative / position absolute */
+.overflow-hidden{
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+}
+.m--50{
+    margin-top: -50px;
+    position: absolute;
+    right: 0;
+}
+
+

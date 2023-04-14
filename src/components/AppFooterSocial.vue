@@ -1,19 +1,18 @@
 <template>
     <section class="bg-black">
         <div class="container">
-            <div class="ptb-4">
-                <div class="d-flex j-content-between align-center">
+            <div class="pt-2 pb-2">
+                <div class="d-flex justify-content-between align-items-center">
                    <div>
-                     <button type="button">Sing-up now!</button>
+                     <button type="button" class="white btn border border-2 rounded-0 border-primary">Sing-up now!</button>
                    </div>
                    <div>
-                    <ul class="d-flex align-center">
-                        <li v-for="(item, index) in footerSocial">
+                    <ul class="d-flex align-items-center m-0 p-0">
+                        <li class="list-group-item" v-for="(item, index) in footerSocial">
                             <a class="white" href="#">{{item.title}}</a>
-                            <img class="block" :src="item.imgSocial" alt="">
+                            <img class="d-block ps-2" :src="item.imgSocial" alt="">
                         </li>
                     </ul>
-
                    </div>
                 </div>
             </div>

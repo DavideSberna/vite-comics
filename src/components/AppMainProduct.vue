@@ -1,8 +1,8 @@
 <template>
-    <section class="bg-blue ptb-4">
+    <section class="bg-blue pt-3 pb-3">
         <div class="container">
-           <ul class="d-flex j-center">
-            <li class="d-flex align-center p-2" v-for="(item, index) in listProduct">
+           <ul class="d-flex justify-content-center align-items-center m-0 p-0">
+            <li class="d-flex align-center" v-for="(item, index) in listProduct">
                 <div >
                     <img class="img-product" :src="item.img" alt="">
                 </div>

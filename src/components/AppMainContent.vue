@@ -1,8 +1,8 @@
 <template>
     <section class="bg-black">
         <div class="container">
-            <div class="ptb-4">
-               <h3>--Content goes here--</h3>
+            <div class="pt-4 pb-4">
+               <h3 class="">--Content goes here--</h3>
             </div>
         </div>
     </section>

@@ -1,13 +1,13 @@
 <template>
     <section>
         <div class="container">
-            <div class="d-flex align-center j-content-between ptb-2">
+            <div class="d-flex align-items-center justify-content-between pt-2 pb-2">
                <div>
                    <img class="img-logo" src="../assets/img/dc-logo.png" alt="logo">
                </div>
                <div>
-                   <ul class="d-flex">
-                       <li class="ps-2" v-for="(link, index) in navLink">
+                   <ul class="d-flex p-0 m-0">
+                       <li class="list-group-item ps-3" v-for="(link, index) in navLink">
                           <a href="#">{{ link }}</a>
                        </li>
                    </ul>
