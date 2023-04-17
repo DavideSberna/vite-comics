@@ -1,11 +1,7 @@
 <template>
-    <section class="bg-black">
-        <div class="container">
-            <div class="row">
-                <!-- <Cardcomponent :image="arr.img" :title="arr.item1" v-for="(arr,index) in newJson"/> -->
-            </div>
-            <div class="pt-4 pb-4">
-               <h3 class="">--Content goes here--</h3>
+    <section class="bg-black pt-5 pb-5">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="pt-5 pb-5">
                <Cardcomponent/>
             </div>
         </div>
@@ -31,4 +27,8 @@ export default{
    }
 }
 </script>
-<style lang="css" scoped></style>
+<style lang="scss" scoped>
+
+ 
+
+</style>

@@ -1,6 +1,7 @@
 <template>
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-        <div class="d-flex flex-column align-items-center p-3">
+    <!-- col-2 col-sm-3 col-md-6 -->
+    <div class="col-6 col-sm-3 col-lg-2 d-flex flex-column align-items-center">
+        <div class="fit-content d-flex flex-column align-items-center pt-3">
             <div class="img-cont">
                 <img :src="image" :alt="title">
             </div>
@@ -31,22 +32,21 @@ export default{
 }
 </script>
 <style lang="scss" scoped>
+
+
 img{
-    width: 100%;
-    height: 100%;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
-    
-     
-}
-.img-cont{
-    width: 150px;
-    height: 150px;
-    position: relative;
+    object-position: top;   
 }
 
 p{
-    text-align: center;
-    width: 100%;
+    text-align: center;   
+}
+
+.fit-content{
+    width: fit-content;
 }
 
 

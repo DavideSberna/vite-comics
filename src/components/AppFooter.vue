@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-image overflow-hidden">
+    <section class="bg-image overflow-hidden pt-5 pb-5">
         <div class="container d-flex justify-content-between pt-4">
             <div class="">
                 <div>
@@ -36,4 +36,4 @@ export default{
    }
 }
 </script>
-<style lang="css" scoped></style>
+<style lang="scss" scoped></style>
